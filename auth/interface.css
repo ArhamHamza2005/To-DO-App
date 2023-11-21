@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("https://t3.ftcdn.net/jpg/01/72/74/34/360_F_172743453_pTOMVS3pDSHHWtOQd4fPvzlsH46oQNI5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position:69% ;
+    height: 100vh;
+    
+ }
+ .navbar-brand{
+   margin-top: -20px;
+   margin-left: -50px;
+ }
+ #todo{ 
+   background: none;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;  
+  animation-fill-mode: forwards;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+@keyframes example {
+   from {top: -140px;color: white;}
+   to {top: 50px; color: rgb(0, 0, 0) ;}
+   
+ }
+ .navbar-brand{
+  margin-top:10 ;
+  margin-left:-25px ;
+ }
+ 
+ #para{
+  width: 450px;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;  
+  animation-fill-mode: forwards;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+#aa {
+  margin-right: 12px;
+  text-decoration: none;
+  padding: 5px 12px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: lightblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#aa:hover {background-color:darkblue}
+#aa:active {
+  background-color:darkblue;
+  box-shadow: 0 5px #989797;
+  transform: translateY(4px);
+}
+#bb {
+  text-decoration: none;
+  padding: 5px 12px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:lightgreen;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#bb:hover {background-color:darkgreen}
+
+#bb:active {
+  background-color: darkgreen;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
